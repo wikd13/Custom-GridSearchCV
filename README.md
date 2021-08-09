@@ -7,9 +7,12 @@ GridSearchCV is a function that comes in Scikit-learn’s(or SK-learn) model_sel
 
 As mentioned above, we pass predefined values for hyperparameters to the GridSearchCV function. We do this by defining a dictionary in which we mention a particular hyperparameter along with the values it can take. Here is an example of it
 ```
- { 'C': [0.1, 1, 10, 100, 1000],  
-   'gamma': [1, 0.1, 0.01, 0.001, 0.0001], 
-   'kernel': ['rbf',’linear’,'sigmoid']  }
+{ 
+  'C': [0.1, 1, 10, 100, 1000],  
+  'gamma': [1, 0.1, 0.01, 0.001, 0.0001], 
+  'kernel': ['rbf',’linear’,'sigmoid']  
+ }
+ 
 ```
 Here C, gamma and kernels are some of the hyperparameters of an SVM model. Note that the rest of the hyperparameters will be set to their default values
 
