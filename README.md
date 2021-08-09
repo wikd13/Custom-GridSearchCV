@@ -12,7 +12,6 @@ As mentioned above, we pass predefined values for hyperparameters to the GridSea
   'gamma': [1, 0.1, 0.01, 0.001, 0.0001], 
   'kernel': ['rbf',’linear’,'sigmoid']  
  }
- 
 ```
 Here C, gamma and kernels are some of the hyperparameters of an SVM model. Note that the rest of the hyperparameters will be set to their default values
 
